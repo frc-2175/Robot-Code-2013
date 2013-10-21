@@ -1,0 +1,10 @@
+step,param,drive,steering,spatula,shooter,fire,grabber_override,Autosteer,reset gyro,comments
+1,1000,0,0,1,0,0,0,0,1,Reset gyro
+1,1000,0.9,0,1,0,0,0,1,0,Drive straight
+1,1000,0,0,1,0,0,0,0,0,Stop
+1,1000,-0.9,0,1,0,0,0,1,0,Drive straight back
+1,1000,0,0,1,0,0,0,0,0,Stop
+1,1000,0.9,0,1,0,0,0,1,0,Drive straight
+1,1000,0,0,1,0,0,0,0,0,Stop
+1,1000,-0.9,0,1,0,0,0,1,0,Drive straight back
+0,0,0,0,1,0,0,0,0,0,Stop all

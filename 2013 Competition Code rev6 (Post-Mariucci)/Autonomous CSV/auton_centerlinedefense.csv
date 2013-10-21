@@ -1,0 +1,9 @@
+step,param,drive,steering,spatula,shooter,fire,grabber_override,Autosteer,Gyro reset,Comments
+1,200,0,0,0,1,0,0,0,1,Spin up wheels
+6,0,0,0,0,1,1,0,0,0,Wait for no plunger
+7,0,0,0,0,1,1,0,0,0,Wait for plunger
+1,500,-0.65,0,1,0,0,0,0,0,Back up
+1,200,0,-0.3,1,0,0,0,0,0,Turn right               Check direction
+1,1000,0.65,0,1,0,0,0,0,0,Go just shy of and past center frisbees
+1,500,0,0.5,1,0,0,0,0,0,Turn left and push frisbees onto our side               Check direction
+1,1000,0.65,0,0,0,0,0,0,0,Back to spatula safety!

@@ -1,0 +1,10 @@
+step,param,drive,steering,spatula,shooter,fire,grabber_override,Autosteer,comments
+1,1000,0,0,0,1,0,0,0,Ramp up a bit
+6,0,0,0,0,1,1,0,0,Wait for Frisbee
+7,0,0,0,0,1,1,0,0,Wait for no Frisbee
+6,0,0,0,0,1,1,0,0,Wait for Frisbee
+7,0,0,0,0,1,1,0,0,Wait for no Frisbee
+6,0,0,0,0,1,1,0,0,Wait for Frisbee
+7,0,0,0,0,1,1,0,0,Wait for no Frisbee
+1,250,0,0,0,1,1,0,0,Wait just a bit so we don't interfere
+0,0,0,0,0,0,0,0,0,Stop all

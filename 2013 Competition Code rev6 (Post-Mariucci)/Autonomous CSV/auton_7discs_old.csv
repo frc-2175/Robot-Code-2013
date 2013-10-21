@@ -1,0 +1,30 @@
+step,param,drive,steering,spatula,shooter,fire,grabber_override,Autosteer,Reset Gyro,comments
+1,500,0,0,0,1,0,0,0,1,Get the wheels up to speed
+6,0,0,0,0,1,1,0,0,0,Wait for no plunger
+7,0,0,0,0,1,1,0,0,0,Wait for plunger
+6,0,0,0,0,1,1,0,0,0,Wait for no plunger
+7,0,0,0,0,1,1,0,0,0,Wait for plunger
+6,0,0,0,0,1,1,0,0,0,Wait for no plunger
+7,0,0,0,0,1,1,0,0,0,Wait for plunger
+1,250,0,0,0,1,1,0,0,0,Wait for a bit so we don't mess with the shot
+4,0,0,0,1,0,0,0,0,0,Lower spatula
+1,600,-0.5,0,1,0,0,0,1,0,Back up slightly
+1,1200,0.6,0.1,1,0,0,0,0,0,Get Frisbees
+5,0,0,0,0,0,0,0,0,0,Spatula up
+1,1000,-0.65,0,1,1,0,0,1,0,Back up to shoot
+6,0,0,0,1,1,1,0,0,0,Wait for no plunger
+7,0,0,0,1,1,1,0,0,0,Wait for plunger
+6,0,0,0,1,1,1,0,0,0,Wait for no plunger
+7,0,0,0,1,1,1,0,0,0,Wait for plunger
+1,250,0,0,1,1,0,0,0,0,Wait just a little bit to make sure we don't interfere with the shot
+4,0,0,0,0,0,0,0,0,0,Lower spatula
+1,2000,0.75,0.25,1,0,0,0,1,0,Drive forward 7 feet to pick up next two frisbees
+5,0,0,0,0,0,0,0,0,0,Spatula up
+8,0,0,0,0,0,0,0,0,0,Wait for Frisbees to be in hopper
+1,2000,-0.75,0,1,1,0,0,1,0,Drive backward 7 feet while ramping up shooter and lowering spatula
+6,0,0,0,1,1,1,0,0,0,Wait for no plunger
+7,0,0,0,1,1,1,0,0,0,Wait for plunger
+6,0,0,0,1,1,1,0,0,0,Wait for no plunger
+7,0,0,0,1,1,1,0,0,0,Wait for plunger
+1,250,0,0,1,1,1,0,0,0,Wait just a little bit to make sure we don't interfere with the shot
+0,0,0,0,1,0,0,0,0,0,Stop all

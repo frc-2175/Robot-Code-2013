@@ -1,0 +1,33 @@
+step,param,drive,steering,spatula,shooter,fire,grabber_override,Autosteer,Gyro Reset,comments
+1,200,-0.65,0,1,1,0,0,0,1,"Get wheels up to speed, lower spatula, and back up slightly"
+4,0,0,0,1,1,0,0,0,0,Spatula down
+6,0,0,0,1,1,1,0,0,0,Wait for no plunger
+7,0,0,0,1,1,1,0,0,0,Wait for plunger
+6,0,0,0,1,1,1,0,0,0,Wait for no plunger
+7,0,0,0,1,1,1,0,0,0,Wait for plunger
+6,0,0,0,1,1,1,0,0,0,Wait for no plunger
+7,0,0,0,1,1,1,0,0,0,Wait for plunger
+1,250,0,0,1,1,1,0,0,0,Wait for a bit so we don't mess with the shot
+1,1000,0.7,0,1,0,0,0,1,0,Drive until spatula clears pyramid (scooping up first two along the way)
+1,500,0.85,0,0,0,0,0,1,0,Drive forward and lift spatula
+1,100,-0.5,0,0,0,0,0,0,0,Reverse to brake
+8,0,0,0,0,0,0,0,0,0,Wait for Frisbee in hopper
+4,0,0,0,1,0,0,0,0,0,Spatula down
+1,950,0.7,0,1,0,0,0,1,0,Drive forward to get front two discs
+1,350,-0.7,0,1,0,0,0,1,0,Accelerate more slowly
+1,1000,-0.9,0,1,1,0,1,1,0,Grab discs and drive back while ramping up shooter
+1,300,-0.9,0,0,1,0,1,1,0,Lift spatula while driving back
+1,100,0.5,0,0,1,0,0,0,0,Brake
+5,0,0,0,0,1,0,0,0,0,Wait for spatula up
+8,0,0,0,0,1,0,0,0,0,Wait for Frisbee in hopper
+6,0,0,0,0,1,1,0,0,0,Wait for no plunger
+7,0,0,0,0,1,1,0,0,0,Wait for plunger
+6,0,0,0,0,1,1,0,0,0,Wait for no plunger
+7,0,0,0,0,1,1,0,0,0,Wait for plunger
+6,0,0,0,0,1,1,0,0,0,Wait for no plunger
+7,0,0,0,0,1,1,0,0,0,Wait for plunger
+6,0,0,0,0,1,1,0,0,0,Wait for no plunger
+7,0,0,0,0,1,1,0,0,0,Wait for plunger
+1,250,0,0,0,1,1,0,0,0,Wait for a bit so we don't mess with the shot
+1,750,-0.75,0,1,0,0,0,1,0,Drive back toward center line and lower spatula
+0,0,0,0,1,0,0,0,0,0,Stop all
